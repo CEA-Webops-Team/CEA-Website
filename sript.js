@@ -62,7 +62,7 @@ function setHeight(div) {
  
   
          
-           document.getElementById("pop").style.display="none";
+           
            let aks=document.getElementById('btn');
            let t=document.getElementById("pop");
               aks.addEventListener("click",function main(){
@@ -133,7 +133,7 @@ function setHeight(div) {
         
 
 
-           document.getElementById("s2").style.display="none";
+           
            let s2b=document.getElementById('s2b');
            let s2=document.getElementById("s2");
            let t92=document.getElementById("t92"); 
@@ -164,7 +164,7 @@ function setHeight(div) {
 
          
 
-     document.getElementById("nn1").style.display="none";
+   
           document.getElementById("mm1").style.display="none";
            let ank1=document.getElementById('ok1');
            let l1=document.getElementById("nn1");
