@@ -54,7 +54,8 @@ img {
 }
 
 .team-images {
-    height: 300px
+    height: 300px;
+    /* width:300px; */
 }
 
 .secretary-image {
@@ -91,7 +92,8 @@ img {
         padding: 0;
     }
     .team-images {
-        height: 290px
+        height: 290px;
+        /* width:290px; */
     }
     .secretary-image {
         display: flex;
