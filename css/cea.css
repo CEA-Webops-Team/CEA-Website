@@ -27,7 +27,13 @@ img {
     margin-bottom: 15px;
 }
 
-
+.portfolio-item-wrap{
+    max-width: 300px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+}
 /* Caption text */
 
 .text {
@@ -81,6 +87,18 @@ img {
     padding-top: 20px;
 }
 
+@media only screen and (max-width: 805px) {
+    .card1 {
+        width: auto;
+        flex-wrap: wrap;
+    }
+    .secretary-image {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+}
+
 @media only screen and (max-width: 375px) {
     .number-box {
         padding-top: 20px;
@@ -96,14 +114,8 @@ img {
         height: 290px;
         /* width:290px; */
     }
-    .secretary-image {
-        display: flex;
-        flex-direction: column;
-        padding: 0;
-    }
-    .card1 {
-        width: auto;
-    }
+    
+    
     .first-team {
         flex-direction: column;
     }
