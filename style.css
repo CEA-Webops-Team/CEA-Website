@@ -1675,6 +1675,11 @@ html {
     background-color: #181818;
     transition: opacity .5s linear;
 }
+
+.navbar-cea{
+    display:flex;
+    
+}
 *, ::after, ::before {
     box-sizing: border-box;
 }
