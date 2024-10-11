@@ -77,7 +77,7 @@ let showingNewsletter = false; // Track which section is currently displayed
 
 function createPostCard(post, index) {
     const card = document.createElement("div");
-    const page = showingNewsletter?"newsletterPage":"article";
+    const page = showingNewsletter?"newsLetterPage":"article";
     card.className = "post-card";
     card.innerHTML = `
         <img src="${post.image}" alt="${post.title}" class="post-image">
