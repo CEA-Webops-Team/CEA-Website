@@ -1678,8 +1678,8 @@ html {
 
 .navbar-cea{
     display:flex;
-    
 }
+
 *, ::after, ::before {
     box-sizing: border-box;
 }
